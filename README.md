@@ -1,4 +1,4 @@
-# Django-little-lemon
+#  Little Lemon Restaurant
 # This is the Django webframework [Meta] Course final graded project.
 
 # The course certificate link https://coursera.org/share/eecba395e1d427504b0909e1629664f5
