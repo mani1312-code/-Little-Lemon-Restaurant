@@ -1,0 +1,28 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+{% block content %}
+<h1>Login</h1>
+<form  action="{% url 'user:login' %}" method="post">
+    {% csrf_token %}
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" name="username" required id="">
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required id="">
+    </div>
+    {% if request.GET.next %}
+        <input type="hidden" name="next" value="{{ request.GET.next }}">
+    {% endif %}
+    <button type="submit">Login</button>
+</form>
+{% if messages %}
+    <ul>
+        {% for message in messages %}
+            <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+{% endblock %}

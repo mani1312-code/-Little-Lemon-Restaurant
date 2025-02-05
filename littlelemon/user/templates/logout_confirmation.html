@@ -1,0 +1,11 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+{% block content %}
+<div class="logout-container">
+    <h2>You have been logged out</h2>
+    <p>Thank you for using our service. We hope to see you again soon.</p>
+    <a href="{% url 'user:login' %}" class="logout-button">Login</a>
+    <a href="{% url 'home' %}" class="logout-button">Go to Home</a>
+</div>
+{% endblock %}
