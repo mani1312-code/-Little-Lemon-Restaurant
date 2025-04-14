@@ -34,8 +34,3 @@ Home Page
 Booking Page
 
 ![Book section](https://github.com/mani1312-code/-Little-Lemon-Restaurant/assets/139042090/1c56edc6-4d6b-46a3-872c-f45be417d21d)
-
-## The course certificate link 
- https://coursera.org/share/eecba395e1d427504b0909e1629664f5
-
-Feel free to contribute to this project by forking the repository and submitting a pull request. Thank you for checking out this project!#  Little Lemon Restaurant
